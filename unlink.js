@@ -1,10 +1,11 @@
 /*
  example usage:
 
- > node unlink.js package.json
+ > node unlink.js ./package.json
 */
 
 const fs = require('fs');
+const path = require('path');
 
 const location = process.argv[process.argv.length - 1];
 
@@ -15,7 +16,7 @@ fs.readFile(location, {encoding: 'utf-8'}, function (err, data) {
     throw new Error(err);
   }
 
-  const commands = [];
+  const commands = ['cd ' + path.resolve(location, "..")];
 
   const json = JSON.parse(data);
   for(let name in json.dependencies) {
