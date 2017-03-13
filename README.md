@@ -2,8 +2,13 @@
 
     git clone git@github.com:npomfret/upgrading-react-native.git
 
-## Unlink your xcode project
+## Clean up
 
+    brew update && brew upgrade
+    npm cache clean && watchman watch-del-all
+    rm -rf ~/.gradle/caches/*
+
+## Unlink your xcode project
 
 Close xcode, then run:
 
@@ -15,7 +20,7 @@ Close xcode, then run:
     npm install -g react-native-git-upgrade
     react-native-git-upgrade
 
-## Then resolve the conflicts
+## Then resolve the conflicts in the xocde project file
 
 todo!
     
