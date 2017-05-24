@@ -1,4 +1,4 @@
-# upgrading-react-native
+# Upgrading-react-native
 
     git clone git@github.com:npomfret/upgrading-react-native.git
 
@@ -20,7 +20,7 @@ Close xcode, then run:
     npm install -g react-native-git-upgrade
     react-native-git-upgrade
 
-## Then resolve the conflicts in the xocde project file
+## Then resolve the conflicts in the xcode project file
 
 todo!
     
