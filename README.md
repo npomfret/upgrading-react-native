@@ -20,7 +20,7 @@ Close xcode, then run:
     npm install -g react-native-git-upgrade
     react-native-git-upgrade
 
-## Then resolve the conflicts in the xocde project file
+## Then resolve the conflicts in the xcode project file
 
 todo!
     
