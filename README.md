@@ -1,4 +1,4 @@
-# Upgrading-react-native
+# upgrading-react-native
 
     git clone git@github.com:npomfret/upgrading-react-native.git
 
